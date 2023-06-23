@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Local PeerConnection() example</title>
+    <!-- <link href="/favicon.ico" type="image/x-icon" rel="icon" /> -->
+    <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+  </head>
+  <body>
+    <table border="1" width="100%">
+      <tr>
+        <th>Local video</th>
+        <th>'Remote' video</th>
+      </tr>
+      <tr>
+        <td>
+          <video id="localVideo" autoplay></video>
+        </td>
+        <td>
+          <video id="remoteVideo" autoplay></video>
+        </td>
+      </tr>
+      <tr>
+        <td align="center">
+          <div>
+            <button id="startButton">Start</button>
+            <button id="callButton">Call</button>
+            <button id="hangupButton">Hang Up</button>
+          </div>
+        </td>
+        <td>
+          <!-- void -->
+        </td>
+      </tr>
+    </table>
+    <script src="js/localPeerConnection.js"></script>
+  </body>
+</html>
